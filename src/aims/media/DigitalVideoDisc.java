@@ -1,14 +1,9 @@
-package aims.disc;
+package aims.media;
 
-public class DigitalVideoDisc {
-    private String title;
-    private String category;
+public class DigitalVideoDisc extends Disc{
     private String director;
-    private int length;
-    private float cost;
 
     private static int nbDigitalVideoDisc = 0;
-    private int id;
 
     public DigitalVideoDisc(String title) {
         this.title = title;
@@ -46,7 +41,7 @@ public class DigitalVideoDisc {
         return director;
     }
 
-    public int getLength() {
+    public float getLength() {
         return length;
     }
 
