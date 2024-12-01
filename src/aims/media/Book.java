@@ -4,11 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Book {
-    private int id;
-    private String title;
-    private String category;
-    private float cost;
+public class Book extends Media {
+
     private List<String> authors = new ArrayList<>();
 
     public Book(String title) {

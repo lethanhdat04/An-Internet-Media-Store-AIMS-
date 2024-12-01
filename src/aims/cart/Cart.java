@@ -1,6 +1,6 @@
 package aims.cart;
 
-import aims.disc.DigitalVideoDisc;
+import aims.media.DigitalVideoDisc;
 
 import java.util.ArrayList;
 

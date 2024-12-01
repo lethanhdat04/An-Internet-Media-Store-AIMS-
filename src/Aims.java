@@ -1,11 +1,11 @@
 import aims.cart.Cart;
-import aims.disc.DigitalVideoDisc;
+import aims.media.DigitalVideoDisc;
 
 import java.util.ArrayList;
 
 public class Aims {
 	    public static void main(String[] args) {
-	        // Khởi tạo đối tượng aims.disc.DigitalVideoDisc
+	        // Khởi tạo đối tượng aims.media.DigitalVideoDisc
 	        DigitalVideoDisc dvd1 = new DigitalVideoDisc("Superman", "Science", "Marvel", 60, 3.14f);
 	        DigitalVideoDisc dvd2 = new DigitalVideoDisc("Batman", "Math", 5.67f);
 
